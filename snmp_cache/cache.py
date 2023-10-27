@@ -20,8 +20,8 @@ from threading import Lock
 import puresnmp
 from logging_handler import create_logger, INFO, DEBUG
 from datetime import datetime, timedelta
-from helpers import *
-from creds import SnmpCredV2, SnmpCredV3
+from .helpers import *
+from .creds import SnmpCredV2, SnmpCredV3
 
 
 class SnmpCache:

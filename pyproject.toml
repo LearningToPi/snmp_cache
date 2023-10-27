@@ -10,8 +10,7 @@ classifiers = [
     "Topic :: System :: Networking :: Monitoring",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3"
-]
+    "Programming Language :: Python :: 3"]
 dependencies = ["gpiod", "bmx280-spi", "dht11-spi", "Jinja2", "lirc",
             "logging-handler", "pyserial", "RPLCD", "smbus2", "spidev"]
 
